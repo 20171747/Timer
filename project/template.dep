@@ -2,7 +2,7 @@
 
 <project>
   <fileVersion>2</fileVersion>
-  <fileChecksum>3820500042</fileChecksum>
+  <fileChecksum>178191201</fileChecksum>
   <configuration>
     <name>Debug</name>
     <outputs>
@@ -13,32 +13,37 @@
       <file>$PROJ_DIR$\Debug\Obj\template.pbd</file>
       <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
       <file>$TOOLKIT_DIR$\lib\clib\cl-pli-blxd-1e16x01.r51</file>
+      <file>$PROJ_DIR$\..\..\..\AppData\Roaming\IAR Embedded Workbench\CodeTemplates.ENU.txt</file>
       <file>$TOOLKIT_DIR$\config\devices\Texas Instruments\lnk51ew_cc2530F256_banked.xcl</file>
       <file>$PROJ_DIR$\Debug\Obj\main.r51</file>
       <file>$PROJ_DIR$\Debug\Exe\template.d51</file>
       <file>$PROJ_DIR$\Debug\Obj\led.pbi</file>
       <file>$TOOLKIT_DIR$\inc\ioCC2530.h</file>
+      <file>$PROJ_DIR$\..\driver\key.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\key.pbi</file>
+      <file>$PROJ_DIR$\..\driver\key.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\key.r51</file>
     </outputs>
     <file>
       <name>$PROJ_DIR$\..\driver\led.c</name>
       <outputs>
         <tool>
-          <name>ICC8051</name>
-          <file> 3</file>
+          <name>BICOMP</name>
+          <file> 11</file>
         </tool>
         <tool>
-          <name>BICOMP</name>
-          <file> 10</file>
+          <name>ICC8051</name>
+          <file> 3</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
-          <name>ICC8051</name>
-          <file> 2 11</file>
+          <name>BICOMP</name>
+          <file> 2 12</file>
         </tool>
         <tool>
-          <name>BICOMP</name>
-          <file> 2 11</file>
+          <name>ICC8051</name>
+          <file> 2 12</file>
         </tool>
       </inputs>
     </file>
@@ -46,22 +51,22 @@
       <name>$PROJ_DIR$\..\app\main.c</name>
       <outputs>
         <tool>
-          <name>ICC8051</name>
-          <file> 8</file>
-        </tool>
-        <tool>
           <name>BICOMP</name>
           <file> 5</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 9</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
-          <name>ICC8051</name>
-          <file> 11</file>
+          <name>BICOMP</name>
+          <file> 12 2 15</file>
         </tool>
         <tool>
-          <name>BICOMP</name>
-          <file> 11</file>
+          <name>ICC8051</name>
+          <file> 12 2 15</file>
         </tool>
       </inputs>
     </file>
@@ -70,7 +75,7 @@
       <inputs>
         <tool>
           <name>BILINK</name>
-          <file> 10 5</file>
+          <file> 14 11 5</file>
         </tool>
       </inputs>
     </file>
@@ -79,7 +84,30 @@
       <inputs>
         <tool>
           <name>XLINK</name>
-          <file> 7 3 8 6</file>
+          <file> 8 16 3 9 6</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\driver\key.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 14</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 16</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 15 12</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 15 12</file>
         </tool>
       </inputs>
     </file>
@@ -88,7 +116,7 @@
       <outputs>
         <tool>
           <name>XLINK</name>
-          <file> 9</file>
+          <file> 10</file>
         </tool>
       </outputs>
     </file>
