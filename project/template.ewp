@@ -2085,6 +2085,12 @@
     <file>
       <name>$PROJ_DIR$\..\driver\led.h</name>
     </file>
+    <file>
+      <name>$PROJ_DIR$\..\driver\timer.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\driver\timer.h</name>
+    </file>
   </group>
   <group>
     <name>project</name>

@@ -26,7 +26,7 @@ typedef enum enLedNum
 }
 LED_NUM_E;
 /* º¯ÊýÉùÃ÷---------------------------------------------------------------*/
-void LedInt(void);
+void LedInit(void);
 void LedOn(unsigned char ucLedNum);
 void LedOff(unsigned char ucLedNum);
 void LedToggle(unsigned char ucLedNum);
